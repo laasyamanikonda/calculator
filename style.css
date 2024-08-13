@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.butt{
+  background-color: deeppink;
+  color: white;
+  width: 97px;
+  height: 97px;
+font-size: 60px;
+  text-align: center;
+  font-family: monospace;
+  border-color: white;
+
+  
+}
+.background{
+background-color: pink;
+  height: 480px;
+  width: 400px;
+  
+}
+.center {
+  border: 5px solid;
+  border-color: white ;
+  margin: auto;}
+
+
+p{
+  font-size: 40px;
+  font-family: monospace;
+  color: white;
+
+
+  
+}
+.butt2{
+
+   background-color: deeppink;
+    color: white;
+    width: 97px;
+    height: 97px;
+  font-size: 60px;
+    text-align: center;
+  border-color: white;
+}
+
+button:hover {
+  background-color: pink; /* change to your desired color */
+  color: white; /* change to your desired color */
+}
+#display{
+height:75px;
+  width:396px;
+  background-color: pink;
+  color:white;
+  border-color: black;
+  border: 5px solid;
+  font-size: 50px;
+  text-align: right;
+  
+  
+}
+.output{
+grid-column: 1/ -1;
+  background-color: pink;
+display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.equals{
+
+  background-color: deeppink;
+    color: white;
+    width: 198px;
+    height: 97px;
+  font-size: 60px;
+    text-align: center;
+  border-color: white;
+
+  
+}
+.img{
+position: absolute;
+  top: 20px;
+  left: 50px;
+width:100px;
+  transform: rotate(343deg);
+}
+.img2{
+position: absolute;
+  bottom: 50px;
+  right: 50px;
+width:100px;
+  transform: rotate(17deg);
+}
