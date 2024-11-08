@@ -18,8 +18,11 @@ font-size: 60px;
 background-color: pink;
   height: 480px;
   width: 400px;
-  
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
 }
+
 .center {
   border: 5px solid;
   border-color: white ;
