@@ -5,12 +5,13 @@ html {
 .butt{
   background-color: deeppink;
   color: white;
-  width: 90px;
+  width: calc(25% - 10px);
   height: 90px;
 font-size: 60px;
   text-align: center;
   font-family: monospace;
   border-color: white;
+  margin: 5px;
 
   
 }
@@ -38,10 +39,9 @@ p{
   
 }
 .butt2{
-
    background-color: deeppink;
     color: white;
-    width: 90px;
+    width: calc(25% - 10px);
     height: 90px;
   font-size: 60px;
     text-align: center;
